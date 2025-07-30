@@ -1,0 +1,143 @@
+.incident-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.incident-table th,
+.incident-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+
+
+.incident-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Example: Camera overlay container */
+.camera-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 120px;
+  height: 83.6px;
+  border-radius: 3.2px;
+}
+
+/* Example: Badge base */
+._badge-base {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.2px 4.8px 3.2px 6.4px;
+  gap: 3.2px;
+  width: 120px;
+  height: 16.4px;
+  background: #0B0B0B;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Example: Incident image */
+.incident-image {
+  width: 120px;
+  height: 67.2px;
+  object-fit: cover;
+  border: 0.8px solid rgba(255, 255, 255, 0.25);
+  border-radius: 3.2px;
+}
+
+
+/* Camera overlay */
+
+/* Auto layout */
+.badge {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.2px 4.8px 3.2px 6.4px;
+  gap: 3.2px;
+
+  width: 120px;
+  height: 16.4px;
+
+  background: #0B0B0B;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 3.2px;
+}
+
+.badge-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 10px;
+  text-align: center;
+  color: #D4D4D4;
+}
+
+.badge-icon {
+  width: 9.6px;
+  height: 9.6px;
+}
+
+.incident-thumbnail {
+  position: relative;
+  width: 120px;
+  height: 67.2px;
+  margin-top: 16.4px;
+  border: 0.8px solid rgba(255, 255, 255, 0.25);
+  background-color: #D9D9D9;
+  overflow: hidden;
+}
+
+.incident-thumbnail img {
+  width: 126.47px;
+  height: 70.8px;
+  position: absolute;
+  top: -1.2px;
+  left: -3.6px;
+  border: 0.8px solid rgba(255, 255, 255, 0.25);
+}
+.incident-list {
+  width: 35%;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  background: #0a0a23;
+  color: white;
+  padding: 20px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.incident-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f1f3a;
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.incident-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.resolve-button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
